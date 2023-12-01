@@ -1,52 +1,5 @@
-# from pyautogui import *
-# import pyautogui
-# import time
-# import keyboard
-
-
-# def check_key_pressed(key):
-#     return keyboard.is_pressed(key)
-
-
-# def run_skip():
-#     btw_play = pyautogui.locateOnScreen('play.png')
-#     btw_upgrade = pyautogui.locateOnScreen('upgrade.png')
-#     btw_roll = pyautogui.locateOnScreen('roll.png')
-#     btw_skip = pyautogui.locateOnScreen('skip.png')
-
-#     # Click roll
-#     if btw_roll != None:
-#         _location_roll = pyautogui.center(btw_roll)
-#         pyautogui.click(_location_roll)
-
-#         # click upgrade and click back to play
-#         if btw_upgrade != None:
-#             _location_upgrade = pyautogui.center(btw_upgrade)
-#             pyautogui.click(_location_upgrade)
-        
-#         if btw_play != None:
-#             _location_play = pyautogui.center(btw_play)
-#             pyautogui.click(_location_play)
-
-#         if btw_skip != None:
-#             _location_skip = pyautogui.center(btw_skip)
-#             pyautogui.click(_location_skip)
-
-#     elif check_key_pressed('x'):
-#         return False
-    
-#     time.sleep(0.1)
-
-# # Kiểm tra xem phím 'a' đã được nhấn chưa
-# stop_run = True
-# print("Start!")
-# while stop_run:
-#     if run_skip() == False:
-#         stop_run = False
-#         print("Stop!")
-    
-#     time.sleep(0.1)  # Giảm tải CPU
-
+#pip install Pillow
+#pip install pyautogui
 import time
 import pyautogui
 from PIL import Image
