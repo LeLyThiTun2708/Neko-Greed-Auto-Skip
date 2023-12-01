@@ -27,5 +27,5 @@ The script will then execute the necessary clicks based on the provided input, a
 
 Note: Use this script responsibly and in accordance with the terms of service of the game you are playing. Automated scripts can be against the terms of service of some games and may lead to consequences.
 
-
+## Demo Video
 [![Demo video](https://img.youtube.com/vi/aUySMwU6ztc/0.jpg)](https://youtu.be/aUySMwU6ztc)
